@@ -1,0 +1,106 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF4D8
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF84BE;
+    height: 100px;
+    align-items: center;
+}
+
+.logo {
+    width: 240px;
+    height: 29px;
+    cursor: pointer;
+    }
+
+.menu {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.foto-bolo {
+    width: 100%;
+    height: 264px;
+    background-image: url(bolo-de-pote.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+    .conteudo {
+    }
+*/
+
+.frase {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+h1.titulo {
+    color: #903822;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.motivos {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF84BE;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.titulo-motivos {
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: white solid 1px;
+}
+
+.texto-motivos {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.motoboy {
+    width: 82px;
+    height: 69px;
+    cursor: pointer;
+}
+
+.texto-rodape {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #903822;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
