@@ -2,7 +2,7 @@
     border: 0;
     margin: 0;
     padding: 0;
-}
+    }
 
 body {
     background-color: #FFF4D8
@@ -13,9 +13,11 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #FF84BE;
     height: 100px;
-    align-items: center;
+    min-width: 360px;
+    
 }
 
 .logo {
@@ -32,6 +34,7 @@ body {
 
 .foto-bolo {
     width: 100%;
+    min-width: 360px;
     height: 264px;
     background-image: url(bolo-de-pote.jpg);
     background-size: cover;
@@ -46,32 +49,36 @@ body {
 
 .frase {
     height: 100px;
+    min-width: 360px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-}
+    margin: auto;
+    }
 
 h1.titulo {
     color: #903822;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .motivos {
     display: flex;
     flex-direction: column;
     background-color: #FF84BE;
+    min-width: 360px;
     height: 250px;
     align-items: center;
     justify-content: center;
     color: white;
     font-family: 'Lato', sans-serif;
+    padding: 15px;
 }
 
 .titulo-motivos {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     border-bottom: white solid 1px;
 }
@@ -84,6 +91,7 @@ h1.titulo {
 
 .rodape {
     display: flex;
+    min-width: 360px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
