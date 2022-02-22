@@ -17,8 +17,7 @@ body {
     background-color: #FF84BE;
     height: 100px;
     min-width: 360px;
-    
-}
+    }
 
 .logo {
     width: 240px;
@@ -47,37 +46,16 @@ body {
     }
 */
 
-.frase {
-    height: 100px;
-    min-width: 360px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    flex-wrap: nowrap;
-    }
-
-h1.titulo {
-    display: flex;
-    color: #903822;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    flex-wrap: nowrap;
-}
-
 .motivos {
     display: flex;
     flex-direction: column;
     background-color: #FF84BE;
     min-width: 360px;
-    height: 250px;
     align-items: center;
     justify-content: center;
     color: white;
     font-family: 'Lato', sans-serif;
-    padding: 15px;
+    padding: 2%;
 }
 
 .titulo-motivos {
@@ -93,13 +71,43 @@ h1.titulo {
     text-align: center;
 }
 
+.logo-petit {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    }
+
+.imagem-logo {
+        height: 360px;
+}
+
+.frase {
+    min-width: 360px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+    background-color: #FF84BE;
+    }
+
+h1.titulo {
+    display: flex;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    flex-wrap: nowrap;
+}
+
 .rodape {
     display: flex;
     min-width: 360px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-
 }
 
 .motoboy {
